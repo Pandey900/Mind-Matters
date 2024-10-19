@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "60d0fe4f5311236168a109cc",
+    "name": "Carol White",
+    "email": "carol.white@example.com",
+    "role": "instructor",
+    "totalenrolled": 40,
+    "skills": ["Aerobics", "Cardio"],
+    "address": "789 Health Blvd, Springfield, IL",
+    "about": "Aerobics instructor with a passion for healthy living.",
+    "photourl": "https://placekitten.com/202/202",
+    "phone": "555-123-4567",
+    "gender": "female"
+  },
+  {
+    "_id": "64c72b9e34e3a25b8e1d5d8f",
+    "username": "john_doe",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "photourl": "https://images.unsplash.com/photo-1502767089025-6572583495d9",
+    "password": "password123",
+    "role": "student",
+    "gender": "male",
+    "address": "123 Main St, Anytown, USA",
+    "phone": "+1-555-123-4567",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "_id": "64c72ba334e3a25b8e1d5d90",
+    "username": "jane_doe",
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "photourl": "https://images.unsplash.com/photo-1504215680853-026ed2a45def",
+    "password": "password123",
+    "role": "instructor",
+    "gender": "female",
+    "address": "456 Elm St, Anytown, USA",
+    "phone": "+1-555-987-6543",
+    "created_at": "2024-01-02T00:00:00Z"
+  },
+  {
+    "_id": "64c72ba834e3a25b8e1d5d91",
+    "username": "alice_smith",
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "photourl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+    "password": "password123",
+    "role": "admin",
+    "gender": "female",
+    "address": "789 Oak St, Anytown, USA",
+    "phone": "+1-555-678-1234",
+    "created_at": "2024-01-03T00:00:00Z"
+  }
+]

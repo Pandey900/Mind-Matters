@@ -1,0 +1,322 @@
+{
+  "users": [
+    {
+      "_id": "64c72b9e34e3a25b8e1d5d8f",
+      "username": "john_doe",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "photourl": "https://images.unsplash.com/photo-1502767089025-6572583495d9",
+      "password": "password123",
+      "role": "student",
+      "gender": "male",
+      "address": "123 Main St, Anytown, USA",
+      "phone": "+1-555-123-4567",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "_id": "64c72ba334e3a25b8e1d5d90",
+      "username": "jane_doe",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "photourl": "https://images.unsplash.com/photo-1504215680853-026ed2a45def",
+      "password": "password123",
+      "role": "instructor",
+      "gender": "female",
+      "address": "456 Elm St, Anytown, USA",
+      "phone": "+1-555-987-6543",
+      "created_at": "2024-01-02T00:00:00Z"
+    },
+    {
+      "_id": "64c72ba834e3a25b8e1d5d91",
+      "username": "alice_smith",
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "photourl": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      "password": "password123",
+      "role": "admin",
+      "gender": "female",
+      "address": "789 Oak St, Anytown, USA",
+      "phone": "+1-555-678-1234",
+      "created_at": "2024-01-03T00:00:00Z"
+    },
+    {
+      "_id": "64c72ba834e3a25b8e1d5d92",
+      "username": "aviriteshpandey",
+      "name": "Aviritesh Pandey",
+      "email": "aviriteshpandey@example.com",
+      "photourl": "https://images.unsplash.com/photo-1519342560-3f2917c472ef",
+      "password": "password123",
+      "role": "student",
+      "gender": "male",
+      "address": "123 Maple St, Anytown, USA",
+      "phone": "+1-555-123-4567",
+      "created_at": "2024-01-10T00:00:00Z"
+    }
+  ],
+  "classes": [
+    {
+      "_id": "668180cc7fb3888469209fde",
+      "name": "Gentle Flow",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+      "availableseats": 15,
+      "price": 1500,
+      "videolink": "https://example.com/gentle-flow-video",
+      "description": "A soothing practice to relax and unwind after a long day.",
+      "instructorname": "Emma Davis",
+      "instructoremail": "emma.davis@example.com",
+      "status": "active",
+      "submitted": "2024-02-05",
+      "totalenrolled": 8,
+      "reason": "stress relief"
+    },
+    {
+      "_id": "668180cc7fb3888469209fdf",
+      "name": "Vinyasa Heat",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+      "availableseats": 12,
+      "price": 2200,
+      "videolink": "https://example.com/vinyasa-heat-video",
+      "description": "Dynamic flowing sequences to build strength and endurance.",
+      "instructorname": "Michael Chen",
+      "instructoremail": "michael.chen@example.com",
+      "status": "active",
+      "submitted": "2024-02-10",
+      "totalenrolled": 11,
+      "reason": "fitness"
+    },
+    {
+      "_id": "668180cc7fb3888469209fe0",
+      "name": "Yin Yoga",
+      "image": "https://images.unsplash.com/photo-1552286450-4a669f880062",
+      "availableseats": 20,
+      "price": 1800,
+      "videolink": "https://example.com/yin-yoga-video",
+      "description": "Deep stretching and long holds to improve flexibility and relaxation.",
+      "instructorname": "Sarah Thompson",
+      "instructoremail": "sarah.thompson@example.com",
+      "status": "active",
+      "submitted": "2024-02-15",
+      "totalenrolled": 7,
+      "reason": "flexibility"
+    },
+    {
+      "_id": "668180cc7fb3888469209fe1",
+      "name": "Ashtanga Primary Series",
+      "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0",
+      "availableseats": 8,
+      "price": 2500,
+      "videolink": "https://example.com/ashtanga-video",
+      "description": "Traditional Ashtanga yoga sequence for experienced practitioners.",
+      "instructorname": "David Patel",
+      "instructoremail": "david.patel@example.com",
+      "status": "active",
+      "submitted": "2024-02-20",
+      "totalenrolled": 6,
+      "reason": "advanced practice"
+    },
+    {
+      "_id": "668180cc7fb3888469209fe2",
+      "name": "Prenatal Yoga",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+      "availableseats": 10,
+      "price": 1700,
+      "videolink": "https://example.com/prenatal-yoga-video",
+      "description": "Gentle yoga practice designed for expectant mothers.",
+      "instructorname": "Lisa Rodriguez",
+      "instructoremail": "lisa.rodriguez@example.com",
+      "status": "active",
+      "submitted": "2024-02-25",
+      "totalenrolled": 5,
+      "reason": "pregnancy support"
+    }
+  ],
+  "instructors": [
+    {
+      "_id": "60d0fe4f5311236168a109cb",
+      "name": "Emma Davis",
+      "email": "emma.davis@example.com",
+      "role": "instructor",
+      "totalenrolled": 8,
+      "skills": ["Yoga", "Gentle Flow"],
+      "address": "456 Wellness Ave, Springfield, IL",
+      "about": "Experienced instructor focusing on soothing and relaxing yoga practices.",
+      "photourl": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+      "phone": "987-654-3210",
+      "gender": "female"
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cc",
+      "name": "Michael Chen",
+      "email": "michael.chen@example.com",
+      "role": "instructor",
+      "totalenrolled": 11,
+      "skills": ["Yoga", "Vinyasa"],
+      "address": "789 Fitness Blvd, Springfield, IL",
+      "about": "Dynamic yoga instructor specializing in Vinyasa flow sequences.",
+      "photourl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+      "phone": "234-567-8901",
+      "gender": "male"
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cd",
+      "name": "Sarah Thompson",
+      "email": "sarah.thompson@example.com",
+      "role": "instructor",
+      "totalenrolled": 7,
+      "skills": ["Yoga", "Yin Yoga"],
+      "address": "101 Stretch Lane, Springfield, IL",
+      "about": "Yin yoga expert focusing on deep stretching and relaxation techniques.",
+      "photourl": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+      "phone": "345-678-9012",
+      "gender": "female"
+    },
+    {
+      "_id": "60d0fe4f5311236168a109ce",
+      "name": "David Patel",
+      "email": "david.patel@example.com",
+      "role": "instructor",
+      "totalenrolled": 6,
+      "skills": ["Yoga", "Ashtanga"],
+      "address": "202 Zen Road, Springfield, IL",
+      "about": "Experienced Ashtanga yoga practitioner and instructor for advanced students.",
+      "photourl": "https://images.unsplash.com/photo-1545205597-3d9d02c29597",
+      "phone": "456-789-0123",
+      "gender": "male"
+    },
+    {
+      "_id": "60d0fe4f5311236168a109cf",
+      "name": "Lisa Rodriguez",
+      "email": "lisa.rodriguez@example.com",
+      "role": "instructor",
+      "totalenrolled": 5,
+      "skills": ["Yoga", "Prenatal Yoga"],
+      "address": "303 Maternity Circle, Springfield, IL",
+      "about": "Specialized instructor in prenatal yoga, supporting expectant mothers.",
+      "photourl": "https://images.unsplash.com/photo-1566501206188-5dd0cf160a0e",
+      "phone": "567-890-1234",
+      "gender": "female"
+    }
+  ],
+  "cart": [
+    {
+      "_id": "64d72c0d34e3a25b8e1d5e92",
+      "name": "John's Cart",
+      "classId": "668180cc7fb3888469209fde",
+      "email": "john@example.com"
+    },
+    {
+      "_id": "64d72c1f34e3a25b8e1d5e93",
+      "name": "Jane's Cart",
+      "classId": "668180cc7fb3888469209fdf",
+      "email": "jane@example.com"
+    },
+    {
+      "_id": "64d72c2834e3a25b8e1d5e94",
+      "name": "Alice's Cart",
+      "classId": "668180cc7fb3888469209fe0",
+      "email": "alice@example.com"
+    }
+  ],
+  "enrolled": [
+    {
+      "_id": "64e72d9f34e3a25b8e1d5f01",
+      "userId": "64c72b9e34e3a25b8e1d5d8f",
+      "userEmail": "john@example.com",
+      "classId": "668180cc7fb3888469209fde",
+      "enrollmentDate": "2024-02-01T00:00:00Z",
+      "status": "active"
+    },
+    {
+      "_id": "64e72dac34e3a25b8e1d5f02",
+      "userId": "64c72ba334e3a25b8e1d5d90",
+      "userEmail": "jane@example.com",
+      "classId": "668180cc7fb3888469209fdf",
+      "enrollmentDate": "2024-01-05T00:00:00Z",
+      "status": "active"
+    },
+    {
+      "_id": "64e72db734e3a25b8e1d5f03",
+      "userId": "64c72ba834e3a25b8e1d5d91",
+      "userEmail": "alice@example.com",
+      "classId": "668180cc7fb3888469209fe0",
+      "enrollmentDate": "2024-11-10T00:00:00Z",
+      "status": "active"
+    }
+  ],
+  "payment": [
+    {
+      "_id": "64f72f2134e3a25b8e1d5f10",
+      "userId": "64c72b9e34e3a25b8e1d5d8f",
+      "userEmail": "john@example.com",
+      "classId": [
+        {
+          "0": "668180cc7fb3888469209fde"
+        }
+      ],
+      "amount": 1500,
+      "currency": "USD",
+      "paymentDate": "2024-02-02T00:00:00Z",
+      "paymentMethod": "credit card",
+      "transactionId": "tx1234567890",
+      "paymentStatus": "completed"
+    },
+    {
+      "_id": "64f72f3a34e3a25b8e1d5f11",
+      "userId": "64c72ba334e3a25b8e1d5d90",
+      "userEmail": "jane@example.com",
+      "amount": 2200,
+      "currency": "USD",
+      "classId": [
+        {
+          "0": "668180cc7fb3888469209fdf"
+        }
+      ],
+      "paymentDate": "2024-01-06T00:00:00Z",
+      "paymentMethod": "paypal",
+      "transactionId": "tx0987654321",
+      "paymentStatus": "completed"
+    },
+    {
+      "_id": "64f72f4c34e3a25b8e1d5f12",
+      "userId": "64c72ba834e3a25b8e1d5d91",
+      "userEmail": "alice@example.com",
+      "amount": 1800,
+      "currency": "USD",
+      "classId": [
+        {
+          "0": "668180cc7fb3888469209fe0"
+        }
+      ],
+      "paymentDate": "2024-11-11T00:00:00Z",
+      "paymentMethod": "bank transfer",
+      "transactionId": "tx1122334455",
+      "paymentStatus": "completed"
+    }
+  ],
+  "applied": [
+    {
+      "_id": "6507305e34e3a25b8e1d5f20",
+      "userId": "64c72b9e34e3a25b8e1d5d8f",
+      "userEmail": "john@example.com",
+      "classId": "668180cc7fb3888469209fde",
+      "applicationDate": "2024-01-20T00:00:00Z",
+      "status": "pending"
+    },
+    {
+      "_id": "6507307234e3a25b8e1d5f21",
+      "userId": "64c72ba334e3a25b8e1d5d90",
+      "userEmail": "jane@example.com",
+      "classId": "668180cc7fb3888469209fdf",
+      "applicationDate": "2024-01-21T00:00:00Z",
+      "status": "approved"
+    },
+    {
+      "_id": "6507308134e3a25b8e1d5f22",
+      "userId": "64c72ba834e3a25b8e1d5d91",
+      "userEmail": "alice@example.com",
+      "classId": "668180cc7fb3888469209fe0",
+      "applicationDate": "2024-11-01T00:00:00Z",
+      "status": "rejected"
+    }
+  ]
+}
